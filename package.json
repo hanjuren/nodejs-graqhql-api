@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-graqhql-api",
+  "version": "1.0.0",
+  "description": "Node.js GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanjuren/nodejs-graqhql-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanjuren/nodejs-graqhql-api/issues"
+  },
+  "homepage": "https://github.com/hanjuren/nodejs-graqhql-api#readme",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
